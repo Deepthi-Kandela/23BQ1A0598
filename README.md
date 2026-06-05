@@ -1,4 +1,4 @@
-markdown# 23BQ1A0598 - Campus Hiring Evaluation - Backend
+23BQ1A0598 - Campus Hiring Evaluation - Backend
 ### Deepthi Kandela | AffordMed Technologies
 
 ---
