@@ -35,3 +35,22 @@ This is a classic knapsack problem:
 **Total Vehicles:** 30 tasks available for scheduling
 
 ## How the Algorithm Works
+Build DP table of size (n+1) x (budget+1) For each vehicle task:
+
+If it fits in remaining budget → choose max of (take it) or (skip it) If it doesnt fit → skip it
+
+Backtrack through DP table to find selected tasks Repeat for each depot with its own budget
+
+Time Complexity: O(n × W) Space Complexity: O(n × W)
+
+How to Run
+cd Question2
+node vehicle_scheduler.js
+Tech Stack Summary
+Technology	Usage
+JavaScript (Node.js)	Primary language
+PostgreSQL	Relational database
+Redis	Caching layer
+Socket.io	Real-time WebSockets
+BullMQ	Message queue
+Dynamic Programming	Knapsack algorithm
